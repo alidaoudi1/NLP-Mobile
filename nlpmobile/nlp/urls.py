@@ -19,6 +19,5 @@ from nlp.views import Index
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url('', include('nlp.urls')),
+    url('', Index),
 ]
